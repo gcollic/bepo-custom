@@ -5,11 +5,11 @@
 <!-- Structure, dead-key names, caps/command/control handling follow the -->
 <!-- official bépo mac layout (http://bepo.fr) so it diffs cleanly; the -->
 <!-- character values are GC3. Top-left key bound to code 10 (ISO) and 50 (ANSI). -->
-<keyboard group="126" id="-6539" name="bépo (GC3)" maxout="4">
+<keyboard group="126" id="-6540" name="bépo (GC3.3)" maxout="4">
   <layouts>
     <layout first="0" last="255" modifiers="commonModifiers" mapSet="ISO" />
   </layouts>
-  <modifierMap id="commonModifiers" defaultIndex="0">
+  <modifierMap id="commonModifiers" defaultIndex="0">`
     <keyMapSelect mapIndex="0">
       <modifier keys="" />
       <modifier keys="anyShift? command caps?" />
@@ -95,11 +95,19 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="&#x0020;"/>
       <key code="50" action="#"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
       <key code="65" action="."/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -112,6 +120,37 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="1">  <!-- Shift -->
       <key code="0" action="A"/>
@@ -163,11 +202,19 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="&#x00a0;"/>
       <key code="50" action="$"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
       <key code="65" action="."/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -180,6 +227,37 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="2">  <!-- Caps Lock -->
       <key code="0" action="A"/>
@@ -231,11 +309,19 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="&#x0020;"/>
       <key code="50" action="#"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
       <key code="65" action="."/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -248,6 +334,37 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="3">  <!-- Shift + Caps Lock -->
       <key code="0" action="a"/>
@@ -299,11 +416,19 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="&#x00a0;"/>
       <key code="50" action="$"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
       <key code="65" action="."/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -316,6 +441,37 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="4">  <!-- Option (AltGr) -->
       <key code="0" action="æ"/>
@@ -366,10 +522,18 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="_"/>
       <key code="50" action="–"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -382,10 +546,40 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="5">  <!-- Shift + Option -->
       <key code="0" action="Æ"/>
-      <key code="2" action="abovedot"/>
       <key code="3" action="currency"/>
       <key code="4" action="ſ"/>
       <key code="5" action="horn"/>
@@ -424,10 +618,18 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="&#x202f;"/>
       <key code="50" action="¶"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -440,11 +642,41 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="6">  <!-- Shift + Option + Caps Lock -->
       <key code="0" action="æ"/>
       <key code="1" action="["/>
-      <key code="2" action="abovedot"/>
       <key code="3" action="currency"/>
       <key code="4" action="ſ"/>
       <key code="5" action="horn"/>
@@ -483,10 +715,18 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="&#x202f;"/>
       <key code="50" action="¶"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -499,6 +739,37 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="7">  <!-- Option + Caps Lock -->
       <key code="0" action="Æ"/>
@@ -548,10 +819,18 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="_"/>
       <key code="50" action="–"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -564,6 +843,37 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="8">  <!-- Option + Command -->
       <key code="0" action="æ"/>
@@ -614,10 +924,18 @@
       <key code="48" output="&#x0009;"/>
       <key code="49" action="_"/>
       <key code="50" action="–"/>
+      <key code="51" output="&#x0008;"/>
+      <key code="52" output="&#x0003;"/>
+      <key code="53" output="&#x001b;"/>
+      <key code="66" output="&#x001d;"/>
       <key code="67" output="*"/>
       <key code="69" output="+"/>
+      <key code="70" output="&#x001c;"/>
+      <key code="71" output="&#x001b;"/>
+      <key code="72" output="&#x001f;"/>
       <key code="75" output="/"/>
       <key code="76" output="&#x0003;"/>
+      <key code="77" output="&#x001e;"/>
       <key code="78" output="-"/>
       <key code="81" output="="/>
       <key code="82" output="0"/>
@@ -630,6 +948,37 @@
       <key code="89" output="7"/>
       <key code="91" output="8"/>
       <key code="92" output="9"/>
+      <key code="96" output="&#x0010;"/>
+      <key code="97" output="&#x0010;"/>
+      <key code="98" output="&#x0010;"/>
+      <key code="99" output="&#x0010;"/>
+      <key code="100" output="&#x0010;"/>
+      <key code="101" output="&#x0010;"/>
+      <key code="102" output="&#x0010;"/>
+      <key code="103" output="&#x0010;"/>
+      <key code="104" output="&#x0010;"/>
+      <key code="105" output="&#x0010;"/>
+      <key code="106" output="&#x0010;"/>
+      <key code="107" output="&#x0010;"/>
+      <key code="108" output="&#x0010;"/>
+      <key code="109" output="&#x0010;"/>
+      <key code="110" output="&#x0010;"/>
+      <key code="111" output="&#x0010;"/>
+      <key code="112" output="&#x0010;"/>
+      <key code="113" output="&#x0010;"/>
+      <key code="114" output="&#x0005;"/>
+      <key code="115" output="&#x0001;"/>
+      <key code="116" output="&#x000b;"/>
+      <key code="117" output="&#x007f;"/>
+      <key code="118" output="&#x0010;"/>
+      <key code="119" output="&#x0004;"/>
+      <key code="120" output="&#x0010;"/>
+      <key code="121" output="&#x000c;"/>
+      <key code="122" output="&#x0010;"/>
+      <key code="123" output="&#x001c;"/>
+      <key code="124" output="&#x001d;"/>
+      <key code="125" output="&#x001f;"/>
+      <key code="126" output="&#x001e;"/>
     </keyMap>
     <keyMap index="9">  <!-- Control -->
       <key code="0" output="&#x0001;"/>
@@ -744,7 +1093,6 @@
   <actions>
     <action id="&#x0020;">
       <when state="none" output="&#x0020;"/>
-      <when state="abovedot" output="˙"/>
       <when state="acute" output="'"/>
       <when state="belowdot" output="̣"/>
       <when state="caron" output="ˇ"/>
@@ -898,7 +1246,6 @@
     </action>
     <action id="A">
       <when state="none" output="A"/>
-      <when state="abovedot" output="Ȧ"/>
       <when state="acute" output="Á"/>
       <when state="belowdot" output="Ạ"/>
       <when state="caron" output="Ǎ"/>
@@ -916,7 +1263,6 @@
     </action>
     <action id="B">
       <when state="none" output="B"/>
-      <when state="abovedot" output="Ḃ"/>
       <when state="belowdot" output="Ḅ"/>
       <when state="currency" output="₱"/>
       <when state="greek" output="Β"/>
@@ -925,7 +1271,6 @@
     </action>
     <action id="C">
       <when state="none" output="C"/>
-      <when state="abovedot" output="Ċ"/>
       <when state="acute" output="Ć"/>
       <when state="caron" output="Č"/>
       <when state="circumflex" output="Ĉ"/>
@@ -936,7 +1281,6 @@
     </action>
     <action id="D">
       <when state="none" output="D"/>
-      <when state="abovedot" output="Ḋ"/>
       <when state="belowdot" output="Ḍ"/>
       <when state="caron" output="Ď"/>
       <when state="currency" output="₯"/>
@@ -946,7 +1290,6 @@
     </action>
     <action id="E">
       <when state="none" output="E"/>
-      <when state="abovedot" output="Ė"/>
       <when state="acute" output="É"/>
       <when state="belowdot" output="Ẹ"/>
       <when state="caron" output="Ě"/>
@@ -963,14 +1306,12 @@
     </action>
     <action id="F">
       <when state="none" output="F"/>
-      <when state="abovedot" output="Ḟ"/>
       <when state="currency" output="₣"/>
       <when state="greek" output="Φ"/>
       <when state="hook" output="Ƒ"/>
     </action>
     <action id="G">
       <when state="none" output="G"/>
-      <when state="abovedot" output="Ġ"/>
       <when state="acute" output="Ǵ"/>
       <when state="caron" output="Ǧ"/>
       <when state="circumflex" output="Ĝ"/>
@@ -982,7 +1323,6 @@
     </action>
     <action id="H">
       <when state="none" output="H"/>
-      <when state="abovedot" output="Ḣ"/>
       <when state="belowdot" output="Ḥ"/>
       <when state="caron" output="Ȟ"/>
       <when state="circumflex" output="Ĥ"/>
@@ -993,7 +1333,6 @@
     </action>
     <action id="I">
       <when state="none" output="I"/>
-      <when state="abovedot" output="İ"/>
       <when state="acute" output="Í"/>
       <when state="belowdot" output="Ị"/>
       <when state="caron" output="Ǐ"/>
@@ -1025,7 +1364,6 @@
     </action>
     <action id="L">
       <when state="none" output="L"/>
-      <when state="abovedot" output="Ŀ"/>
       <when state="acute" output="Ĺ"/>
       <when state="belowdot" output="Ḷ"/>
       <when state="caron" output="Ľ"/>
@@ -1035,7 +1373,6 @@
     </action>
     <action id="M">
       <when state="none" output="M"/>
-      <when state="abovedot" output="Ṁ"/>
       <when state="acute" output="Ḿ"/>
       <when state="belowdot" output="Ṃ"/>
       <when state="currency" output="ℳ"/>
@@ -1044,7 +1381,6 @@
     </action>
     <action id="N">
       <when state="none" output="N"/>
-      <when state="abovedot" output="Ṅ"/>
       <when state="acute" output="Ń"/>
       <when state="belowdot" output="Ṇ"/>
       <when state="caron" output="Ň"/>
@@ -1056,7 +1392,6 @@
     </action>
     <action id="O">
       <when state="none" output="O"/>
-      <when state="abovedot" output="Ȯ"/>
       <when state="acute" output="Ó"/>
       <when state="belowdot" output="Ọ"/>
       <when state="caron" output="Ǒ"/>
@@ -1075,7 +1410,6 @@
     </action>
     <action id="P">
       <when state="none" output="P"/>
-      <when state="abovedot" output="Ṗ"/>
       <when state="acute" output="Ṕ"/>
       <when state="currency" output="₧"/>
       <when state="greek" output="Π"/>
@@ -1088,7 +1422,6 @@
     </action>
     <action id="R">
       <when state="none" output="R"/>
-      <when state="abovedot" output="Ṙ"/>
       <when state="acute" output="Ŕ"/>
       <when state="belowdot" output="Ṛ"/>
       <when state="caron" output="Ř"/>
@@ -1098,7 +1431,6 @@
     </action>
     <action id="S">
       <when state="none" output="S"/>
-      <when state="abovedot" output="Ṡ"/>
       <when state="acute" output="Ś"/>
       <when state="belowdot" output="Ṣ"/>
       <when state="caron" output="Š"/>
@@ -1108,7 +1440,6 @@
     </action>
     <action id="T">
       <when state="none" output="T"/>
-      <when state="abovedot" output="Ṫ"/>
       <when state="belowdot" output="Ṭ"/>
       <when state="caron" output="Ť"/>
       <when state="currency" output="₮"/>
@@ -1147,7 +1478,6 @@
     </action>
     <action id="W">
       <when state="none" output="W"/>
-      <when state="abovedot" output="Ẇ"/>
       <when state="acute" output="Ẃ"/>
       <when state="belowdot" output="Ẉ"/>
       <when state="circumflex" output="Ŵ"/>
@@ -1159,13 +1489,11 @@
     </action>
     <action id="X">
       <when state="none" output="X"/>
-      <when state="abovedot" output="Ẋ"/>
       <when state="diaeresis" output="Ẍ"/>
       <when state="greek" output="Ξ"/>
     </action>
     <action id="Y">
       <when state="none" output="Y"/>
-      <when state="abovedot" output="Ẏ"/>
       <when state="acute" output="Ý"/>
       <when state="belowdot" output="Ỵ"/>
       <when state="circumflex" output="Ŷ"/>
@@ -1180,7 +1508,6 @@
     </action>
     <action id="Z">
       <when state="none" output="Z"/>
-      <when state="abovedot" output="Ż"/>
       <when state="acute" output="Ź"/>
       <when state="belowdot" output="Ẓ"/>
       <when state="caron" output="Ž"/>
@@ -1211,7 +1538,6 @@
     </action>
     <action id="a">
       <when state="none" output="a"/>
-      <when state="abovedot" output="ȧ"/>
       <when state="acute" output="á"/>
       <when state="belowdot" output="ạ"/>
       <when state="caron" output="ǎ"/>
@@ -1229,7 +1555,6 @@
     </action>
     <action id="b">
       <when state="none" output="b"/>
-      <when state="abovedot" output="ḃ"/>
       <when state="belowdot" output="ḅ"/>
       <when state="currency" output="฿"/>
       <when state="greek" output="β"/>
@@ -1238,7 +1563,6 @@
     </action>
     <action id="c">
       <when state="none" output="c"/>
-      <when state="abovedot" output="ċ"/>
       <when state="acute" output="ć"/>
       <when state="caron" output="č"/>
       <when state="circumflex" output="ĉ"/>
@@ -1249,7 +1573,6 @@
     </action>
     <action id="d">
       <when state="none" output="d"/>
-      <when state="abovedot" output="ḋ"/>
       <when state="belowdot" output="ḍ"/>
       <when state="caron" output="ď"/>
       <when state="currency" output="₫"/>
@@ -1259,7 +1582,6 @@
     </action>
     <action id="e">
       <when state="none" output="e"/>
-      <when state="abovedot" output="ė"/>
       <when state="acute" output="é"/>
       <when state="belowdot" output="ẹ"/>
       <when state="caron" output="ě"/>
@@ -1276,14 +1598,12 @@
     </action>
     <action id="f">
       <when state="none" output="f"/>
-      <when state="abovedot" output="ḟ"/>
       <when state="currency" output="ƒ"/>
       <when state="greek" output="φ"/>
       <when state="hook" output="ƒ"/>
     </action>
     <action id="g">
       <when state="none" output="g"/>
-      <when state="abovedot" output="ġ"/>
       <when state="acute" output="ǵ"/>
       <when state="caron" output="ǧ"/>
       <when state="circumflex" output="ĝ"/>
@@ -1295,7 +1615,6 @@
     </action>
     <action id="h">
       <when state="none" output="h"/>
-      <when state="abovedot" output="ḣ"/>
       <when state="belowdot" output="ḥ"/>
       <when state="caron" output="ȟ"/>
       <when state="circumflex" output="ĥ"/>
@@ -1307,7 +1626,6 @@
     </action>
     <action id="i">
       <when state="none" output="i"/>
-      <when state="abovedot" output="ı"/>
       <when state="acute" output="í"/>
       <when state="belowdot" output="ị"/>
       <when state="caron" output="ǐ"/>
@@ -1324,7 +1642,6 @@
     </action>
     <action id="j">
       <when state="none" output="j"/>
-      <when state="abovedot" output="ȷ"/>
       <when state="caron" output="ǰ"/>
       <when state="circumflex" output="ĵ"/>
       <when state="greek" output="θ"/>
@@ -1341,7 +1658,6 @@
     </action>
     <action id="l">
       <when state="none" output="l"/>
-      <when state="abovedot" output="ŀ"/>
       <when state="acute" output="ĺ"/>
       <when state="belowdot" output="ḷ"/>
       <when state="caron" output="ľ"/>
@@ -1351,7 +1667,6 @@
     </action>
     <action id="m">
       <when state="none" output="m"/>
-      <when state="abovedot" output="ṁ"/>
       <when state="acute" output="ḿ"/>
       <when state="belowdot" output="ṃ"/>
       <when state="currency" output="₥"/>
@@ -1360,7 +1675,6 @@
     </action>
     <action id="n">
       <when state="none" output="n"/>
-      <when state="abovedot" output="ṅ"/>
       <when state="acute" output="ń"/>
       <when state="belowdot" output="ṇ"/>
       <when state="caron" output="ň"/>
@@ -1372,7 +1686,6 @@
     </action>
     <action id="o">
       <when state="none" output="o"/>
-      <when state="abovedot" output="ȯ"/>
       <when state="acute" output="ó"/>
       <when state="belowdot" output="ọ"/>
       <when state="caron" output="ǒ"/>
@@ -1391,7 +1704,6 @@
     </action>
     <action id="p">
       <when state="none" output="p"/>
-      <when state="abovedot" output="ṗ"/>
       <when state="acute" output="ṕ"/>
       <when state="currency" output="₰"/>
       <when state="greek" output="π"/>
@@ -1405,7 +1717,6 @@
     </action>
     <action id="r">
       <when state="none" output="r"/>
-      <when state="abovedot" output="ṙ"/>
       <when state="acute" output="ŕ"/>
       <when state="belowdot" output="ṛ"/>
       <when state="caron" output="ř"/>
@@ -1415,7 +1726,6 @@
     </action>
     <action id="s">
       <when state="none" output="s"/>
-      <when state="abovedot" output="ṡ"/>
       <when state="acute" output="ś"/>
       <when state="belowdot" output="ṣ"/>
       <when state="caron" output="š"/>
@@ -1426,7 +1736,6 @@
     </action>
     <action id="t">
       <when state="none" output="t"/>
-      <when state="abovedot" output="ṫ"/>
       <when state="belowdot" output="ṭ"/>
       <when state="caron" output="ť"/>
       <when state="currency" output="৳"/>
@@ -1466,7 +1775,6 @@
     </action>
     <action id="w">
       <when state="none" output="w"/>
-      <when state="abovedot" output="ẇ"/>
       <when state="acute" output="ẃ"/>
       <when state="belowdot" output="ẉ"/>
       <when state="circumflex" output="ŵ"/>
@@ -1479,13 +1787,11 @@
     </action>
     <action id="x">
       <when state="none" output="x"/>
-      <when state="abovedot" output="ẋ"/>
       <when state="diaeresis" output="ẍ"/>
       <when state="greek" output="ξ"/>
     </action>
     <action id="y">
       <when state="none" output="y"/>
-      <when state="abovedot" output="ẏ"/>
       <when state="acute" output="ý"/>
       <when state="belowdot" output="ỵ"/>
       <when state="circumflex" output="ŷ"/>
@@ -1501,7 +1807,6 @@
     </action>
     <action id="z">
       <when state="none" output="z"/>
-      <when state="abovedot" output="ż"/>
       <when state="acute" output="ź"/>
       <when state="belowdot" output="ẓ"/>
       <when state="caron" output="ž"/>
@@ -1525,7 +1830,6 @@
     </action>
     <action id="&#x00a0;">
       <when state="none" output="&#x00a0;"/>
-      <when state="abovedot" output="̇"/>
       <when state="acute" output="́"/>
       <when state="belowdot" output="̣"/>
       <when state="caron" output="̌"/>
@@ -1654,7 +1958,6 @@
     </action>
     <action id="ſ">
       <when state="none" output="ſ"/>
-      <when state="abovedot" output="ẛ"/>
     </action>
     <action id="Ə">
       <when state="none" output="Ə"/>
@@ -1737,10 +2040,6 @@
     <action id="✘">
       <when state="none" output="✘"/>
     </action>
-    <action id="abovedot">
-      <when state="none" next="abovedot"/>
-      <when state="abovedot" output="˙"/>
-    </action>
     <action id="acute">
       <when state="none" next="acute"/>
       <when state="acute" output="'"/>
@@ -1807,7 +2106,6 @@
     </action>
   </actions>
   <terminators>
-    <when state="abovedot" output="˙"/>
     <when state="acute" output="'"/>
     <when state="belowdot" output="̣"/>
     <when state="caron" output="ˇ"/>
